@@ -10,6 +10,7 @@ node {
    }
    stage('test') {
      nodejs(nodeJSInstallationName: 'NodeJS9') {
+       sh 'qsldkjfhlkjh'
        sh 'npm test'
      }
    }
