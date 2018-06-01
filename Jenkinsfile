@@ -5,12 +5,12 @@ node {
    }
    stage('install') {
      nodejs(nodeJSInstallationName: 'NodeJS9') {
+       sh 'qsldkjfhlkjh'
        sh 'npm install --only=dev'
      }
    }
    stage('test') {
      nodejs(nodeJSInstallationName: 'NodeJS9') {
-       sh 'qsldkjfhlkjh'
        sh 'npm test'
      }
    }
