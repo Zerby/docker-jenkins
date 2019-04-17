@@ -1,8 +1,8 @@
 job('My Job 1') {
     scm {
-        git('https://github.com/akasam/jenkins-demo1') {  node -> 
-            node / gitConfigName('srohaut  ')
-            node / gitConfigEmail('srohaut@estiam.com')
+        git('https://github.com/Zerby/docker-jenkins') {  node -> 
+            node / gitConfigName('zerby')
+            node / gitConfigEmail('clement.zerb@eemi.com')
         }
     }
     triggers {
