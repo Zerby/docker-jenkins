@@ -9,7 +9,7 @@ job('My Job 1') {
         scm('H/5 * * * *')
     }
     wrappers {
-        nodejs('NodeJS9')
+        nodejs('NodeJS10')
     }
     steps {
         shell("npm install")
